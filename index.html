@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+         <meta charset="utf-8">
+         <title>Weather</title>
+         <link rel="icon" href="images/weather-forecast.png">
+         <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Check Current Weather of Your City!!</h1>
+        <div class="container">
+            <section class="main">
+                
+                <section class="intake">
+                     <input type="text" placeholder="City Name...." id="cityintake">
+                     <input type="submit" value="Submit" id="add">
+                     <button placeholder="submit" id="add"></button>
+                </section>
+
+                <section class="display">
+                     <div class="wrapper">
+                         <h2 id="cityresult"></h2>
+                         <p id="description"></p>
+                         <p id="humidity"></p>
+                         <p id="temperature"></p>
+                         <p id="wind"></p>
+                     </div>
+                </section>
+
+            </section>
+        </div>
+
+       <script src="app.js"></script>
+    </body>
+    <footer>
+        <p class="footer">@AniketParmar</p>
+    </footer>
+</html>
